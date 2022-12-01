@@ -18,6 +18,7 @@ class LinkedList {
     node.next = newNode;
     this.size += 1;
   }
+
   getSize() {
     return this.size;
   }
@@ -29,7 +30,7 @@ class LinkedList {
       result.push(node.value);
       node = node.next;
     }
-    return result;
+     console.log(result);;
   }
 }
 
